@@ -1,5 +1,3 @@
-__version__ = "1.0.0"
-
 from datetime import datetime, timedelta
 
 def convert_five_digit_number_to_date(five_digit_number):
@@ -17,7 +15,8 @@ def convert_five_digit_number_to_date(five_digit_number):
 # Example usage
 five_digit_number = 1
 result = convert_five_digit_number_to_date(five_digit_number)
-print(result.strftime('%Y-%m-%d'))
+print(f"Converted date from ({five_digit_number}) 5D Bitcoin Digit : {result.strftime('%Y-%m-%d')}")
+
 
 
 def convert_date_to_five_digit_number(date_string):
@@ -33,4 +32,4 @@ def convert_date_to_five_digit_number(date_string):
 # Example usage
 date_string = '1900-01-01'
 result = convert_date_to_five_digit_number(date_string)
-print(result)
+print(f"Converted 5D digits from ({date_string}) date: {result}")
