@@ -1,5 +1,7 @@
 from datetime import datetime, timedelta
 
+__version__ = "1.1.0"
+
 def convert_five_digit_number_to_date(five_digit_number):
     # Define the base date (1900-01-01)
     base_date = datetime(1900, 1, 1)
