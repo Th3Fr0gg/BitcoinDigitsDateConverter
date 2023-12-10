@@ -51,15 +51,15 @@ The number 53067 corresponds to the date: 2022-12-31
 To convert new dates, rerun the script!!!
 
 
-Notes____
-For the date input, the script ensures that the entered date is valid and falls within the specified range.
-The 5D Bitcoin Digit input is validated for format and range.
-The script displays warnings for invalid inputs and provides information about the valid date range.
-To convert new dates, rerun the script!
+Notes:
+- For the date input, the script ensures that the entered date is valid and falls within the specified range.
+- The 5D Bitcoin Digit input is validated for format and range.
+- The script displays warnings for invalid inputs and provides information about the valid date range.
+- To convert new dates, rerun the script!
 
-Bitcoin Digits Collection Website: [https://bitcoindigits.com/]
-Bitcoin Digits Collection Twitter: [https://twitter.com/BitcoinDigits]
-
+Bitcoin Digits Collection:
+- Website: [https://bitcoindigits.com/]
+- Twitter: [https://twitter.com/BitcoinDigits]
 
 Feel free to reach out if you have any questions or need further assistance!
 
