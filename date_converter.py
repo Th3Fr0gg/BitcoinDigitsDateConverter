@@ -1,3 +1,5 @@
+__version__ = "1.0.0"
+
 from datetime import datetime, timedelta
 
 def convert_five_digit_number_to_date(five_digit_number):
