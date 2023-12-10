@@ -7,22 +7,23 @@ This Python script serves as a 5D Bitcoin Digits date converter, allowing users 
 ## Instructions
 
 1. **Open and Run the Script:**
+   - Follow to https://programiz.pro/ide/python/VPQYKZBZ1R project.
    - Open the `bitcoindigits_date_converter.py` file in your preferred Python environment.
    - Run the script.
 
-2. **Date Input:**
+3. **Date Input:**
    - Enter a valid date in the format (YYYY-MM-DD).
    - The valid date should fall between January 1, 1900, and October 15, 2173.
 
-3. **Conversion to 5D Bitcoin Digit:**
+4. **Conversion to 5D Bitcoin Digit:**
    - The script will display the input date.
    - The corresponding 5D Bitcoin Digit number will be shown.
 
-4. **5D Bitcoin Digit Input:**
+5. **5D Bitcoin Digit Input:**
    - Enter a 5D Bitcoin Digit number between 00000 and 99999.
    - Enter '0' to exit.
 
-5. **Conversion to Date:**
+6. **Conversion to Date:**
    - The script will display the input 5D Bitcoin Digit number.
    - The corresponding date will be shown.
 
