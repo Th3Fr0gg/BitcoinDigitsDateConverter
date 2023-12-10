@@ -11,6 +11,11 @@ Current Version: 1.1.0
 - **1.0.0** (2023-12-10): Initial release.
 Date converter to 5D Bitcoin Digits!
 - **1.1.0** (2023-12-10): Output messages chaneges.
+- **1.2.0** (2023-03-01): Updated date calculation logic.
+  - Changed the date calculation from -1-based to 0-based. The conversion now aligns with the standard where day 0 represents the base date (e.g., 1900-01-01).
+  - Updated the calculation in the `convert_five_digit_number_to_date` function accordingly.
+  - If you have been using a previous version, please be aware of this change and adjust your calculations accordingly.
+
 
 
 You can run this code online using the [Programiz Python Online Compiler](https://www.programiz.com/python-programming/online-compiler/). Follow the steps below:
