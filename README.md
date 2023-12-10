@@ -1,3 +1,11 @@
+## Version
+
+Current Version: 1.0.0
+
+### Changelog
+
+- **1.0.0** (2023-01-01): Initial release.
+
 
  # Bitcoin Digits Date Converter
 
