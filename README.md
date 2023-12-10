@@ -1,3 +1,7 @@
+
+ # Bitcoin Digits Date Converter
+This repository contains Python code developed for the Bitcoin Digits collection. The software facilitates the conversion of dates to and from a five-digit number. The code includes two functions:
+
 ## Version
 
 Current Version: 1.0.0
@@ -5,12 +9,7 @@ Current Version: 1.0.0
 ### Changelog
 
 - **1.0.0** (2023-01-01): Initial release.
-
-
- # Bitcoin Digits Date Converter
-
 Date converter to 5D Bitcoin Digits!
-This repository contains Python code developed for the Bitcoin Digits collection. The software facilitates the conversion of dates to and from a five-digit number. The code includes two functions:
 
 
 You can run this code online using the [Programiz Python Online Compiler](https://www.programiz.com/python-programming/online-compiler/). Follow the steps below:
