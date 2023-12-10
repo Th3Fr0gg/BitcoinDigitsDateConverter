@@ -58,7 +58,7 @@ def get_valid_date_input():
     valid_end_date = datetime(2173, 10, 15)
 
     while True:
-        date_input = input("---- Please enter a valid date (YYYY-MM-DD): ")
+        date_input = input("---- Please enter a valid date (YYYY-MM-DD):\n")
 
         if is_valid_date_input(date_input):
             parsed_date = datetime.strptime(date_input, "%Y-%m-%d")
@@ -66,11 +66,14 @@ def get_valid_date_input():
             if valid_start_date <= parsed_date <= valid_end_date:
                 return parsed_date
             else:
-                print(f"The valid period is between {valid_start_date.strftime('%Y-%m-%d')} and {valid_end_date.strftime('%Y-%m-%d')}.")
+                print(f"The valid period is between {valid_start_date.strftime('%Y-%m-%d')} and {valid_end_date.strftime('%Y-%m-%d')}.\n")
         else:
-            print("Invalid format or date! Please enter a valid date (YYYY-MM-DD).")
+            print("Invalid format or date! Please enter a valid date (YYYY-MM-DD).\n")
 
 # Test the function
+print("Welcome to the 5D Bitcoin digits date converter!")
+print("This program allows you to convert dates to 5D Bitcoin Digit numbers and vice versa!\n")
+
 try:
     while True:
         # Get valid date input
@@ -79,11 +82,11 @@ try:
 
         # Convert date to five-digit number
         five_digit_number = convert_date_to_five_digit_number(valid_date)
-        print(f"The valid date converted to a 5D Bitcoin Digit: {five_digit_number}")
+        print(f"The valid date converted to a 5D Bitcoin Digit: {five_digit_number}\n")
 
         # Get valid five-digit number input
         while True:
-            input_number = input("----Please enter a 5D Bitcoin Digit number between 00000 and 99999 (enter 0 to exit): ")
+            input_number = input("----Please enter a 5D Bitcoin Digit number between 00000 and 99999 (enter 0 to exit):\n")
 
             if input_number == '0':
                 break
@@ -92,10 +95,10 @@ try:
                 numeric_value = get_numeric_value(input_number)
                 permutations = permute_string(input_number)
                 date_value = convert_five_digit_number_to_date(numeric_value)
-                print(f"The number {input_number} corresponds to the date: {date_value.strftime('%Y-%m-%d')}")
+                print(f"The number {input_number} corresponds to the date: {date_value.strftime('%Y-%m-%d')}\n")
                 break
             else:
-                print("---- Invalid format! Please enter a valid 5D Bitcoin Digit number between 00000 and 99999.")
+                print("---- Invalid format! Please enter a valid 5D Bitcoin Digit number between 00000 and 99999.\n")
 except ValueError as ve:
     print(f"Error: {ve}")
 
