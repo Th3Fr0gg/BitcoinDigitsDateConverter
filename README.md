@@ -26,7 +26,6 @@ You can run this code online using the [Programiz Python Online Compiler](https:
 
   ## Example
 `date_string` = '1900-01-01'
-result = convert_date_to_five_digit_number(date_string)
 
 #### `Convert 5D Bitcion Digit to date`
 
