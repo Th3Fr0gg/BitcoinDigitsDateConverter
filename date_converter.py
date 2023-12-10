@@ -1,7 +1,20 @@
 from datetime import datetime, timedelta
 
-__version__ = "1.2.1"
+__version__ = "2.0.0"
 
+def is_valid_date(year, month, day):
+    try:
+        datetime(year, month, day)
+        return True
+    except ValueError:
+        return False
+
+def is_valid_date_input(date_input):
+    try:
+        parsed_date = datetime.strptime(date_input, "%Y-%m-%d")
+        return is_valid_date(parsed_date.year, parsed_date.month, parsed_date.day)
+    except ValueError:
+        return False
 
 def convert_five_digit_number_to_date(five_digit_number):
     # Define the base date (1900-01-01)
@@ -14,22 +27,75 @@ def convert_five_digit_number_to_date(five_digit_number):
     result_date = base_date + timedelta(days=days_to_add)
     
     return result_date
-# Example usage
-five_digit_number = 0
-result = convert_five_digit_number_to_date(five_digit_number)
-print(f"Converted date from ({five_digit_number}) 5D Bitcoin Digit : {result.strftime('%Y-%m-%d')}")
 
-def convert_date_to_five_digit_number(date_string):
-    # Convert the date string to a datetime object
-    date_object = datetime.strptime(date_string, '%Y-%m-%d')
-    
-    # Calculate the number of days elapsed between the base date (1900-01-01) and the target date
+def convert_date_to_five_digit_number(date):
+    # Define the base date (1900-01-01)
     base_date = datetime(1900, 1, 1)
-    days_elapsed = (date_object - base_date).days
-    
-    return abs(days_elapsed)
-# Example usage
-date_string = '1900-01-01'
-result = convert_date_to_five_digit_number(date_string)
-print(f"Converted 5D digits from ({date_string}) date: {result}")
+
+    # Calculate the difference in days
+    delta = date - base_date
+    days_difference = delta.days
+
+    return days_difference
+
+def get_numeric_value(s):
+    return int(s.lstrip('0')) if s.lstrip('0') else 0
+
+def permute_string(s):
+    if len(s) == 0:
+        return ['']
+    prev_list = permute_string(s[1:])
+    next_list = []
+    for i in range(len(prev_list)):
+        for j in range(len(s)):
+            new_str = prev_list[i][:j] + s[0] + prev_list[i][j:]
+            if new_str not in next_list:
+                next_list.append(new_str)
+    return next_list
+
+def get_valid_date_input():
+    valid_start_date = datetime(1900, 1, 1)
+    valid_end_date = datetime(2173, 10, 15)
+
+    while True:
+        date_input = input("---- Please enter a valid date (YYYY-MM-DD): ")
+
+        if is_valid_date_input(date_input):
+            parsed_date = datetime.strptime(date_input, "%Y-%m-%d")
+
+            if valid_start_date <= parsed_date <= valid_end_date:
+                return parsed_date
+            else:
+                print(f"The valid period is between {valid_start_date.strftime('%Y-%m-%d')} and {valid_end_date.strftime('%Y-%m-%d')}.")
+        else:
+            print("Invalid format or date! Please enter a valid date (YYYY-MM-DD).")
+
+# Test the function
+try:
+    while True:
+        # Get valid date input
+        valid_date = get_valid_date_input()
+        print(f"Valid date: {valid_date.strftime('%Y-%m-%d')}")
+
+        # Convert date to five-digit number
+        five_digit_number = convert_date_to_five_digit_number(valid_date)
+        print(f"The valid date converted to a 5D Bitcoin Digit: {five_digit_number}")
+
+        # Get valid five-digit number input
+        while True:
+            input_number = input("----Please enter a 5D Bitcoin Digit number between 00000 and 99999 (enter 0 to exit): ")
+
+            if input_number == '0':
+                break
+
+            if input_number.isdigit() and len(input_number) == 5 and 0 <= int(input_number) <= 99999:
+                numeric_value = get_numeric_value(input_number)
+                permutations = permute_string(input_number)
+                date_value = convert_five_digit_number_to_date(numeric_value)
+                print(f"The number {input_number} corresponds to the date: {date_value.strftime('%Y-%m-%d')}")
+                break
+            else:
+                print("---- Invalid format! Please enter a valid 5D Bitcoin Digit number between 00000 and 99999.")
+except ValueError as ve:
+    print(f"Error: {ve}")
 
