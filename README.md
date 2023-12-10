@@ -8,8 +8,9 @@ Current Version: 1.1.0
 
 ### Changelog
 
-- **1.0.0** (2023-01-01): Initial release.
+- **1.0.0** (2023-12-10): Initial release.
 Date converter to 5D Bitcoin Digits!
+- **1.1.0** (2023-12-10): Output messages chaneges.
 
 
 You can run this code online using the [Programiz Python Online Compiler](https://www.programiz.com/python-programming/online-compiler/). Follow the steps below:
