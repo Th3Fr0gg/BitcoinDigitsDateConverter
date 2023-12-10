@@ -14,7 +14,7 @@ Date converter to 5D Bitcoin Digits!
 
 You can run this code online using the [Programiz Python Online Compiler](https://www.programiz.com/python-programming/online-compiler/). Follow the steps below:
 
-1. Copy and paste the code from the respective Python file (main.py) into the online compiler.
+1. Copy and paste the code from the respective Python file (date_converter.py) into the online compiler.
 2. Modify the input values according to your requirements.
 
 ### Function Parameters
