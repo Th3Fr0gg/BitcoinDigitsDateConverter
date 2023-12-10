@@ -18,7 +18,7 @@ You can run this code online using the [Programiz Python Online Compiler](https:
 - **Output:** Returns a five-digit number representing the elapsed days from the base date (1900-01-01).
 
   ## Example
-date_string = '1900-01-01'
+`date_string` = '1900-01-01'
 result = convert_date_to_five_digit_number(date_string)
 
 #### `convert_five_digit_number_to_date`
@@ -27,7 +27,7 @@ result = convert_date_to_five_digit_number(date_string)
 - **Output:** Returns a date string in the format 'YYYY-MM-DD' based on the elapsed days from the base date (1900-01-01).
 
   ## Example
-five_digit_number = 1 
+`five_digit_number` = 1 
 
 
 This updated version specifies the input parameters directly within the code examples for each function.
