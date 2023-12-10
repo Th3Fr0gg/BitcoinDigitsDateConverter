@@ -2,7 +2,6 @@ from datetime import datetime, timedelta
 
 __version__ = "2.0.0"
 
-
 def is_valid_date(year, month, day):
     try:
         datetime(year, month, day)
