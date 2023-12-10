@@ -1,6 +1,9 @@
 
  # Bitcoin Digits Date Converter
-This repository contains Python code developed for the Bitcoin Digits collection. The software facilitates the conversion of dates to and from a five-digit number. The code includes two functions:
+This repository contains Python code developed for the Bitcoin Digits collection. The software facilitates the conversion of dates to and from a five-digit number. 
+The 5D Bitcoin Digits range from 00001 to 99999, covering the period between January 1, 1900, and October 15, 2173.
+The code includes two functions.
+
 
 ## Version
 
