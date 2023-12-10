@@ -32,4 +32,4 @@ def convert_date_to_five_digit_number(date_string):
 # Example usage
 date_string = '1900-01-01'
 result = convert_date_to_five_digit_number(date_string)
-print(f"Converted 5D digits from ({date_string}) date: {result}")
+print(f"Converted 5D Bitcoin Digit from ({date_string}) date: {result}")
