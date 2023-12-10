@@ -46,10 +46,11 @@ Bitcoin Digits Collection: [https://bitcoindigits.com/]
 
 Feel free to reach out if you have any questions or need further assistance!
 
+## Searching for 5D Bitcoin digit numbers
 
 #### Description:
 
-Visit the Unisat Search platform using the following link: https://unisat.io/search . This platform allows users to search for 5-digit numbers, providing an opportunity to explore and discover numbers that have not been printed or documented before
+Visit the Unisat Search platform using the following link: https://unisat.io/search . This platform allows users to search for 5-digit numbers, providing an opportunity to explore and discover numbers that have not been minted or inscribed before
 
 #### Steps:
 
