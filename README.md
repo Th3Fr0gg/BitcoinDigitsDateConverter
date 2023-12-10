@@ -4,7 +4,7 @@ This repository contains Python code developed for the Bitcoin Digits collection
 
 ## Version
 
-Current Version: 1.0.0
+Current Version: 1.1.0
 
 ### Changelog
 
