@@ -19,7 +19,7 @@ You can run this code online using the [Programiz Python Online Compiler](https:
 
 ### Function Parameters
 
-#### `Convert date to 5D Bitcoin digit number`
+#### `Convert date to 5D Bitcoin Digit number`
 
 - **Input:** `date_string` (string) - The date to convert in the format 'YYYY-MM-DD'.
 - **Output:** Returns a five-digit number representing the elapsed days from the base date (1900-01-01).
@@ -46,7 +46,7 @@ Bitcoin Digits Collection: [https://bitcoindigits.com/]
 
 Feel free to reach out if you have any questions or need further assistance!
 
-## Searching for 5D Bitcoin digit numbers
+## Searching for 5D Bitcoin Digit numbers
 
 #### Description:
 
