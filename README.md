@@ -34,10 +34,11 @@ Welcome to the 5D Bitcoin digits date converter!
 This program allows you to convert dates to 5D Bitcoin Digit numbers and vice versa!
 Follow us on Twitter: [https://twitter.com/BitcoinDigits](https://twitter.com/BitcoinDigits) or visit our website: [https://bitcoindigits.com/](https://bitcoindigits.com/)
 
-Please enter a valid formatted date (YYYY-MM-DD) between 1900-01-01 and 2173-10-15 
-2022-12-31 
-Valid date: 2022-12-31 
-The valid date converted to a 5D Bitcoin Digit: 53067 
+
+ **Please enter a valid formatted date (YYYY-MM-DD) between 1900-01-01 and 2173-10-15**
+    2022-12-31 
+    Valid date: 2022-12-31
+    The valid date converted to a 5D Bitcoin Digit: 53067 
 
 Please enter a 5D Bitcoin Digit number between 00000 and 99999 (enter 0 to exit): 
 53067 
