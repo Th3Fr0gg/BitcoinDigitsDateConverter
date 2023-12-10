@@ -44,7 +44,7 @@ You can run this code online using the [Programiz Python Online Compiler](https:
 
 This updated version specifies the input parameters directly within the code examples for each function.
 
-Note: The +1 adjustment is applied to account for the inclusion of the base date (1900-01-01) in the calculations.
+Note: The adjustment accounts for the 0-based calculation, where day 0 represents the base date (1900-01-01) in the calculations.
 
 Remember to adjust the input values (date_string or five_digit_number) according to your specific use case.
 
