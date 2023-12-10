@@ -1,5 +1,7 @@
-# dateconverter
-Date converter to 5 digits
+
+ # Bitcoin Digits Date Converter
+
+Date converter to 5D Bitcoin Digits!
 
 You can run this code online using the [Programiz Python Online Compiler](https://www.programiz.com/python-programming/online-compiler/). Follow the steps below:
 
@@ -24,6 +26,12 @@ result = convert_date_to_five_digit_number(date_string)
 
   ## Example
 five_digit_number = 1 
+
+
+This updated version specifies the input parameters directly within the code examples for each function.
+
+
+
 
 
 
