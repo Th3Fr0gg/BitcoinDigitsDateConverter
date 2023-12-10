@@ -32,6 +32,14 @@ five_digit_number = 1
 
 This updated version specifies the input parameters directly within the code examples for each function.
 
+Note: The +1 adjustment is applied to account for the inclusion of the base date (1900-01-01) in the calculations.
+
+Remember to adjust the input values (date_string or five_digit_number) according to your specific use case.
+
+Bitcoin Digits Collection: [https://bitcoindigits.com/]
+
+Feel free to reach out if you have any questions or need further assistance!
+
 
 
 
