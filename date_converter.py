@@ -66,13 +66,16 @@ def get_valid_date_input():
             if valid_start_date <= parsed_date <= valid_end_date:
                 return parsed_date
             else:
-                print(f"The valid period is between {valid_start_date.strftime('%Y-%m-%d')} and {valid_end_date.strftime('%Y-%m-%d')}.\n")
+                print(f"WARNING - The valid period is between {valid_start_date.strftime('%Y-%m-%d')} and {valid_end_date.strftime('%Y-%m-%d')}.\n")
         else:
-            print("Invalid format or date! Please enter a valid date (YYYY-MM-DD).\n")
+            print("WARNING - Invalid format or date! Please enter a valid date (YYYY-MM-DD).\n")
 
 # Test the function
 print("Welcome to the 5D Bitcoin digits date converter!")
-print("This program allows you to convert dates to 5D Bitcoin Digit numbers and vice versa!\n")
+print("This program allows you to convert dates to 5D Bitcoin Digit numbers and vice versa!")
+print("Follow us on twitter: https://twitter.com/BitcoinDigits or our website: https://bitcoindigits.com/ \n")
+
+
 
 try:
     while True:
@@ -98,7 +101,7 @@ try:
                 print(f"The number {input_number} corresponds to the date: {date_value.strftime('%Y-%m-%d')}\n")
                 break
             else:
-                print("---- Invalid format! Please enter a valid 5D Bitcoin Digit number between 00000 and 99999.\n")
+                print("WARNING - Invalid format! Please enter a valid 5D Bitcoin Digit number between 00000 and 99999.\n")
 except ValueError as ve:
     print(f"Error: {ve}")
 
