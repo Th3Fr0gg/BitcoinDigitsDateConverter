@@ -41,11 +41,9 @@ This Python script serves as a 5D Bitcoin Digits date converter, allowing users 
       53067
       The number 53067 corresponds to the date: 2022-12-31
    
-   _________________________________________
    To convert new dates, rerun the script!!!
 
 
-_______________________________
 Notes
 For the date input, the script ensures that the entered date is valid and falls within the specified range.
 The 5D Bitcoin Digit input is validated for format and range.
