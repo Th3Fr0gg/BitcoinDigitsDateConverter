@@ -47,8 +47,22 @@ Bitcoin Digits Collection: [https://bitcoindigits.com/]
 Feel free to reach out if you have any questions or need further assistance!
 
 
+#### Description:
 
+Visit the Unisat Search platform using the following link: https://unisat.io/search . This platform allows users to search for 5-digit numbers, providing an opportunity to explore and discover numbers that have not been printed or documented before
 
+#### Steps:
 
+Open the provided link in your web browser.
 
+Once on the Unisat Search page, you will find a search bar or input field.
 
+Enter the 5-digit number you want to search for in the provided input field.
+
+Press the "Search" button or hit "Enter" to initiate the search.
+
+Review the search results displayed on the page. The platform will provide relevant information or data associated with the entered 5-digit number.
+
+Note: Ensure that the number you enter is exactly 5 digits long for accurate search results.
+
+This platform is designed to facilitate the search and retrieval of information related to specific 5-digit numbers. Explore the results to find any relevant data or details associated with the entered numeric value.
